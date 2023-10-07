@@ -1,0 +1,114 @@
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.left-card {
+  flex: 1;
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-heading {
+  background-color: rgb(0, 0, 128);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.bullet-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bullet-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.right-card {
+  flex: 1;
+  background-color: rgb(0, 0, 128);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  margin: 20px;
+}
+
+.inner-card {
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.eye-button {
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -35px;
+  margin-top: 8px;
+}
+
+.forgot-password {
+  text-align: right;
+  padding: 6px;
+}
+
+.login-button {
+  background-color: rgb(0, 0, 128);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.become-member {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}

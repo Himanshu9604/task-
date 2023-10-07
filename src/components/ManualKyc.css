@@ -1,0 +1,111 @@
+.main_container{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin: 4rem 0;
+  padding: 2rem 4rem;
+}
+
+.left{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_card{
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  background-color: rgb(181, 223, 247);
+  width: 80%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.user_details{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  position: relative;
+
+}
+.user_details p{
+  width: 50%;
+}
+.user_details img{
+  height: 13rem;
+  width: 12rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
+.name-occupation{
+margin-bottom: 3rem;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding-right: 4rem;
+}
+.name-occupation h1{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name-occupation p{
+  width: 40%;
+  text-align: left;
+}
+.right{
+  width: 50%;
+  height: 28rem;
+  background: rgb(0,0,128);
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.KYC_box{
+  background-color: white;
+  height: 80%;
+  width: 75%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+.KYC_box h2{
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.KYC_options{
+  display: flex;
+}
+.KYC_methods{
+  position: relative;
+  padding: 0.5rem 2rem ;
+  cursor: pointer;
+  
+}
+
+.KYC_methods span::after{
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(0, 0, 128)); 
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}

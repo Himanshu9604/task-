@@ -1,0 +1,107 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.personal-details,
+.nominee-details {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+}
+
+.input-field {
+  flex: 1;
+  max-width: calc(50% - 8px); 
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 16px; 
+  font-size: 1.2rem;
+
+}
+
+.input-field label {
+  font-weight: bold;
+  color: rgb(0,0,128);
+  font-size: 1.2rem;
+}
+
+
+.form-container {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between; 
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.right-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+.upload-photo-label {
+  cursor: pointer;
+  position: relative;
+  width: 100px; 
+  height: 100px; 
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.selected-photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.plus-icon {
+  width: 50px; 
+  height: 50px;
+  fill: #ccc;
+
+}
+
+.image-upload-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image-upload-btn span {
+  margin-right: 8px;
+}
+.submit-btn{
+  background-color: rgb(0,0,128);
+  text-align: center;
+
+margin: 1.2rem;
+margin-left: 15rem;
+  color: white;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+}

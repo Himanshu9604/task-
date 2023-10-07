@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import ManualKyc from "./components/ManualKyc";
+import Form from './components/Form';
+// import Mpin from './components/Mpin';
+// import SignUpForm from './components/Signup';
+import Footer from "./pages/Footer";
+import Navbar from "./pages/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Navbar />
+      </div>
+      <div>
+        <Form/>
+        {/* <Mpin/> */}
+        {/* <SignUpForm/> */}
+        {/* <ManualKyc/> */}
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </>
   );
 }
 
